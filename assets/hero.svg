@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tushar Jaiswal - Backend Software Engineer</title>
+  <desc id="desc">A dark three-dimensional systems architecture banner with APIs, queues, caching, and databases.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111f"/><stop offset=".56" stop-color="#0c1729"/><stop offset="1" stop-color="#111a32"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#67e8f9"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c084fc"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+    <linearGradient id="blueFace" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e3a5f"/><stop offset="1" stop-color="#101d36"/></linearGradient>
+    <linearGradient id="purpleFace" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#312e81"/><stop offset="1" stop-color="#171538"/></linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#7dd3fc" stroke-opacity=".07"/></pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="round"><rect width="1200" height="360" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <circle cx="1050" cy="35" r="245" fill="#2563eb" opacity=".08"/>
+    <circle cx="890" cy="330" r="225" fill="#7c3aed" opacity=".08"/>
+    <path d="M0 296L1200 178" stroke="#38bdf8" stroke-opacity=".08"/>
+    <path d="M0 326L1200 208" stroke="#a78bfa" stroke-opacity=".06"/>
+    <g transform="translate(60 52)" font-family="Inter,Segoe UI,Arial,sans-serif">
+      <rect width="176" height="28" rx="14" fill="#0ea5e9" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".42"/>
+      <circle cx="17" cy="14" r="4" fill="#67e8f9" filter="url(#glow)"/>
+      <text x="31" y="19" fill="#bae6fd" font-size="12" font-weight="700" letter-spacing="1.8">BACKEND SYSTEMS</text>
+      <text x="0" y="93" fill="#f8fafc" font-size="54" font-weight="800" letter-spacing="-1.5">TUSHAR JAISWAL</text>
+      <text x="2" y="128" fill="#94a3b8" font-size="20" font-weight="600" letter-spacing="2.1">BACKEND SOFTWARE ENGINEER - SYSTEMS BUILDER</text>
+      <text x="2" y="174" fill="#cbd5e1" font-size="16">Distributed services, data platforms and real-time systems</text>
+      <text x="2" y="200" fill="#cbd5e1" font-size="16">engineered for reliable performance at production scale.</text>
+      <g transform="translate(0 231)" font-size="13" font-weight="700">
+        <g><rect width="77" height="30" rx="8" fill="#10243c" stroke="#38bdf8" stroke-opacity=".28"/><text x="15" y="20" fill="#7dd3fc">Node.js</text></g>
+        <g transform="translate(87)"><rect width="75" height="30" rx="8" fill="#10243c" stroke="#38bdf8" stroke-opacity=".28"/><text x="14" y="20" fill="#7dd3fc">NestJS</text></g>
+        <g transform="translate(172)"><rect width="104" height="30" rx="8" fill="#171c3c" stroke="#a78bfa" stroke-opacity=".32"/><text x="14" y="20" fill="#c4b5fd">PostgreSQL</text></g>
+        <g transform="translate(286)"><rect width="65" height="30" rx="8" fill="#171c3c" stroke="#a78bfa" stroke-opacity=".32"/><text x="14" y="20" fill="#c4b5fd">Redis</text></g>
+        <g transform="translate(361)"><rect width="65" height="30" rx="8" fill="#171c3c" stroke="#a78bfa" stroke-opacity=".32"/><text x="14" y="20" fill="#c4b5fd">Kafka</text></g>
+        <g transform="translate(436)"><rect width="58" height="30" rx="8" fill="#10243c" stroke="#38bdf8" stroke-opacity=".28"/><text x="14" y="20" fill="#7dd3fc">AWS</text></g>
+      </g>
+    </g>
+    <g transform="translate(790 42)">
+      <path d="M50 205L218 115L353 187L184 282Z" fill="#020617" opacity=".58"/>
+      <g transform="translate(46 122)">
+        <path d="M0 34L106 0L196 43L89 79Z" fill="url(#cyan)" opacity=".88"/>
+        <path d="M0 34L89 79V120L0 74Z" fill="url(#blueFace)"/>
+        <path d="M89 79L196 43V84L89 120Z" fill="#0c4a6e"/>
+        <circle cx="23" cy="62" r="4" fill="#67e8f9"/><circle cx="38" cy="69" r="4" fill="#22d3ee" opacity=".68"/>
+      </g>
+      <g transform="translate(92 61)">
+        <path d="M0 34L106 0L196 43L89 79Z" fill="url(#violet)" opacity=".92"/>
+        <path d="M0 34L89 79V120L0 74Z" fill="url(#purpleFace)"/>
+        <path d="M89 79L196 43V84L89 120Z" fill="#3730a3"/>
+        <circle cx="23" cy="62" r="4" fill="#c4b5fd"/><circle cx="38" cy="69" r="4" fill="#818cf8" opacity=".72"/>
+      </g>
+      <g transform="translate(137)">
+        <path d="M0 34L106 0L196 43L89 79Z" fill="url(#cyan)"/>
+        <path d="M0 34L89 79V120L0 74Z" fill="url(#blueFace)"/>
+        <path d="M89 79L196 43V84L89 120Z" fill="#0369a1"/>
+        <circle cx="23" cy="62" r="4" fill="#a5f3fc" filter="url(#glow)"/><circle cx="38" cy="69" r="4" fill="#22d3ee"/>
+      </g>
+      <g fill="none" stroke-linecap="round">
+        <path d="M42 52L119 84" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5 8" opacity=".6"/>
+        <path d="M312 38L345 82" stroke="#a78bfa" stroke-width="2" stroke-dasharray="5 8" opacity=".64"/>
+        <path d="M278 229L345 201" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5 8" opacity=".6"/>
+      </g>
+      <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="800" letter-spacing="1">
+        <g transform="translate(0 31)"><rect width="66" height="29" rx="8" fill="#0b2239" stroke="#38bdf8" stroke-opacity=".45"/><text x="17" y="19" fill="#7dd3fc">API</text></g>
+        <g transform="translate(321 72)"><rect width="74" height="29" rx="8" fill="#211d49" stroke="#a78bfa" stroke-opacity=".48"/><text x="13" y="19" fill="#c4b5fd">QUEUE</text></g>
+        <g transform="translate(321 187)"><rect width="76" height="29" rx="8" fill="#0b2239" stroke="#38bdf8" stroke-opacity=".45"/><text x="12" y="19" fill="#7dd3fc">CACHE</text></g>
+      </g>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="358.5" rx="23.25" fill="none" stroke="#334155" stroke-opacity=".72" stroke-width="1.5"/>
+</svg>
