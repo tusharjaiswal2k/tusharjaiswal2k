@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330" role="img" aria-labelledby="title description">
+  <title id="title">Production impact</title>
+  <desc id="description">Four outcomes from Tushar Jaiswal's engineering work.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1516" />
+      <stop offset="1" stop-color="#102020" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#9ad8cf" stroke-opacity="0.035" />
+    </pattern>
+    <clipPath id="frame"><rect width="800" height="330" rx="20" /></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="800" height="330" fill="url(#background)" />
+    <rect width="800" height="330" fill="url(#grid)" />
+    <line x1="400" y1="24" x2="400" y2="306" stroke="#2b4441" />
+    <line x1="24" y1="165" x2="776" y2="165" stroke="#2b4441" />
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <g transform="translate(36 31)">
+        <text x="0" y="53" fill="#edf6f4" font-size="51" font-weight="760" letter-spacing="-1">200+</text>
+        <text x="0" y="87" fill="#a9bcb8" font-size="20" font-weight="650">merchants served daily</text>
+        <text x="0" y="112" fill="#6f8984" font-size="15">Multi-channel production platform</text>
+      </g>
+
+      <g transform="translate(436 31)">
+        <text x="0" y="53" fill="#70c9bc" font-size="51" font-weight="760" letter-spacing="-1">100%</text>
+        <text x="0" y="87" fill="#a9bcb8" font-size="20" font-weight="650">analytics traffic migrated</text>
+        <text x="0" y="112" fill="#6f8984" font-size="15">PostgreSQL → ClickHouse</text>
+      </g>
+
+      <g transform="translate(36 190)">
+        <text x="0" y="53" fill="#70c9bc" font-size="51" font-weight="760" letter-spacing="-1">~40%</text>
+        <text x="0" y="87" fill="#a9bcb8" font-size="20" font-weight="650">lower database cost</text>
+        <text x="0" y="112" fill="#6f8984" font-size="15">After analytical workload isolation</text>
+      </g>
+
+      <g transform="translate(436 190)">
+        <text x="0" y="53" fill="#edf6f4" font-size="51" font-weight="760" letter-spacing="-1">100+</text>
+        <text x="0" y="87" fill="#a9bcb8" font-size="20" font-weight="650">drone missions supported</text>
+        <text x="0" y="112" fill="#6f8984" font-size="15">10+ concurrent flights</text>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="798.5" height="328.5" rx="19.25" fill="none" stroke="#35504d" stroke-width="1.5" />
+</svg>

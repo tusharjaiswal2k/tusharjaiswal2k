@@ -1,77 +1,116 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Tushar Jaiswal - Backend Software Engineer" />
+  <picture>
+    <source media="(max-width: 800px)" srcset="./assets/hero-mobile.svg" />
+    <img src="./assets/hero.svg" width="100%" alt="Tushar Jaiswal — backend software engineer building dependable distributed systems" />
+  </picture>
+
+  <p>
+    <a href="https://www.linkedin.com/in/tushar-jaiswal-a231871b6"><strong>LinkedIn</strong></a>
+    &nbsp;·&nbsp;
+    <a href="mailto:tusharjaiswal2k@gmail.com"><strong>Email</strong></a>
+    &nbsp;·&nbsp;
+    Faridabad, India
+  </p>
 </div>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/tushar-jaiswal-a231871b6"><img src="https://img.shields.io/badge/LINKEDIN-0b1220?style=flat-square&logo=linkedin&logoColor=60a5fa" alt="LinkedIn" /></a>
-  <a href="mailto:tusharjaiswal2k@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0b1220?style=flat-square&logo=gmail&logoColor=f87171" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/FARIDABAD%2C_INDIA-0b1220?style=flat-square&logo=googlemaps&logoColor=67e8f9" alt="Faridabad, India" />
-</p>
+# Backend systems, designed for the long run.
 
-## 01 - About
+I'm Tushar Jaiswal, a backend software engineer with about four years of experience building distributed services, data platforms, and real-time operational systems.
 
-I'm a backend software engineer with **about four years of experience** building scalable distributed systems across product teams and startups. I work on high-throughput services, data platforms, real-time workflows, and the operational tooling that keeps them reliable.
-
-- Helped scale a multi-channel engagement platform serving **200+ merchants daily**
-- Led a PostgreSQL-to-ClickHouse analytics migration, offloading **100% of query traffic** and cutting database cost by **about 40%**
-- Improved billing accuracy to **about 95%** by redesigning reconciliation, reporting, and alerting workflows
-- Built drone mission, telemetry, and path-planning services supporting **100+ missions** and **10+ concurrent flights**
-- Used automation and MCP-based tools to reduce manual customer-success effort by **about 20%**
-
-## 02 - Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,nodejs,nestjs,postgres,mongodb,mysql,redis,aws,docker,githubactions,html,css,git&perline=8" alt="Technology stack" />
-</p>
-
-| Area | Technologies |
-| --- | --- |
-| **Backend** | Node.js, NestJS, JavaScript, TypeScript, Python |
-| **Data** | PostgreSQL, ClickHouse, MongoDB, MySQL, TimescaleDB, Redis |
-| **Cloud & delivery** | AWS, EC2, S3, SES, CloudFront, Akamai, Docker |
-| **Systems** | Apache Kafka, microservices, distributed systems, real-time telemetry, MCP |
-| **Delivery** | GitHub Actions, Bitbucket, CI/CD |
-
-## 03 - Experience
-
-| Role | Organization | Focus |
-| --- | --- | --- |
-| **Software Developer** | Primathon (GoKwik) | Multi-channel engagement, billing reliability, analytics migration, CDN delivery, and AI-assisted operations |
-| **Software Developer** | TSAW Drones | Mission planning, flight-data processing, collision avoidance, telemetry, and precision-agriculture services |
-| **Software Developer** | Tech Compiler | Frontend performance, state management, caching, and build optimization |
-
-## 04 - Selected work
-
-| Project | What I worked on | Result |
-| --- | --- | --- |
-| **KwikEngage** | Chat intelligence, Chat ID-based retrieval, billing visibility, and internal support tooling | About **40% faster issue resolution**, **30% less manual support effort**, and **90% fewer billing discrepancies** |
-| **DCIS v2** | Collision avoidance, mission planning, automated flight booking, and real-time monitoring | About **40% faster mission planning**, **30% lower collision risk**, and **35% faster incident response** |
-| **Analytics platform** | PostgreSQL-to-ClickHouse migration and query-traffic offloading | Better analytical performance with database costs reduced by **about 40%** |
-
-## 05 - Engineering focus
-
-<pre>
-scalability     -> distributed services, Kafka, high-throughput workflows
-data platforms  -> PostgreSQL, ClickHouse, analytics and migration strategy
-reliability     -> reconciliation, alerting, observability and SLA adherence
-performance     -> caching, CDN/edge delivery, query and build optimization
-automation      -> practical AI and MCP tools for operational workflows
-</pre>
-
-## 06 - 3D contribution activity
+I work at the point where product growth becomes systems work: defining service boundaries, moving data safely, designing for failure, and giving teams the tooling to operate production with confidence.
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Tushar Jaiswal's 3D GitHub contribution graph" />
+  <picture>
+    <source media="(max-width: 800px)" srcset="./assets/impact-mobile.svg" />
+    <img src="./assets/impact.svg" width="100%" alt="Production impact: more than 200 merchants served daily, all analytics traffic moved off PostgreSQL, approximately 40 percent lower database cost, and more than 100 drone missions supported" />
+  </picture>
 </div>
 
-<sub>This graph is generated daily in this repository using the repository owner's public contribution data.</sub>
+## Selected systems
 
-## 07 - Connect
+### Analytics platform · PostgreSQL → ClickHouse
+
+**Constraint.** Analytical workloads were competing with transactional traffic and increasing database cost.
+
+**Engineering.** Led the migration path from PostgreSQL to ClickHouse, including data movement, query cutover, validation, and operational safeguards.
+
+**Outcome.** Offloaded **100% of analytics query traffic** and reduced database cost by **~40%** while preserving confidence in reporting.
+
+---
+
+### KwikEngage · support and billing operations
+
+**Constraint.** Support teams needed faster diagnosis across chat, billing, and merchant workflows without adding more manual process.
+
+**Engineering.** Built Chat ID-based retrieval, billing visibility, reconciliation, alerting, and AI-assisted internal tools around the production workflow.
+
+**Outcome.** Contributed to **~40% faster issue resolution**, **~30% less manual support effort**, and **~90% fewer billing discrepancies**.
+
+---
+
+### DCIS v2 · real-time drone operations
+
+**Constraint.** Concurrent flights require predictable mission planning, live telemetry, and safe responses to changing conditions.
+
+**Engineering.** Developed mission-planning, automated flight-booking, collision-avoidance, and monitoring services for a real-time control system.
+
+**Outcome.** Supported **100+ missions** and **10+ concurrent flights**, with **~40% faster planning** and **~35% faster incident response**.
+
+## How I approach engineering
+
+```text
+Make the critical path explicit   → model ownership, load, and failure modes
+Move data with an exit strategy   → validate, observe, cut over, and roll back
+Treat operability as a feature    → logs, metrics, alerts, and useful runbooks
+Automate repeated judgment        → build tools that make the safe path easier
+Optimize for the next operator    → leave systems clearer than I found them
+```
+
+## Technical focus
+
+**Core services**<br>
+`TypeScript` · `JavaScript` · `Node.js` · `NestJS` · `Python`
+
+**Data and messaging**<br>
+`PostgreSQL` · `ClickHouse` · `MongoDB` · `MySQL` · `TimescaleDB` · `Redis` · `Kafka`
+
+**Cloud and delivery**<br>
+`AWS` · `Docker` · `GitHub Actions` · `CI/CD` · `CloudFront` · `Akamai`
+
+**Systems work**<br>
+Distributed systems · microservices · real-time telemetry · analytics migrations · reliability · MCP-based automation
+
+## Experience
+
+### Primathon (GoKwik) · Software Developer
+
+Backend services for multi-channel engagement, billing reliability, analytics, CDN delivery, and AI-assisted operations—serving **200+ merchants daily**.
+
+### TSAW Drones · Software Developer
+
+Mission planning, flight-data processing, collision avoidance, telemetry, and precision-agriculture services for concurrent drone operations.
+
+### Tech Compiler · Software Developer
+
+Frontend performance, state management, caching, and build optimization, with a focus on faster and more predictable delivery.
+
+## Beyond the commit count
+
+I care about code that changes an operating metric: lower cost, faster diagnosis, safer migrations, fewer manual steps, or a system that remains understandable as it grows.
+
+<details>
+  <summary><strong>View public contribution activity</strong></summary>
+  <br />
+  <div align="center">
+    <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="Tushar Jaiswal's GitHub contribution activity" />
+  </div>
+  <sub>Generated daily from this repository owner's public GitHub contribution data.</sub>
+</details>
+
+## Let's build something dependable
 
 I'm open to conversations about backend platforms, distributed systems, data infrastructure, real-time products, practical AI tooling, and software engineering opportunities.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/tushar-jaiswal-a231871b6"><strong>LinkedIn</strong></a>
-  &nbsp;-&nbsp;
-  <a href="mailto:tusharjaiswal2k@gmail.com"><strong>Email</strong></a>
-</p>
+<a href="mailto:tusharjaiswal2k@gmail.com"><strong>Send me an email</strong></a>
+&nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/tushar-jaiswal-a231871b6"><strong>Connect on LinkedIn</strong></a>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="650" viewBox="0 0 600 650" role="img" aria-labelledby="title description">
+  <title id="title">Tushar Jaiswal — Backend Software Engineer</title>
+  <desc id="description">A mobile layout introducing Tushar Jaiswal with a simplified production-system topology.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081111" />
+      <stop offset="1" stop-color="#0d1b1c" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122122" />
+      <stop offset="1" stop-color="#0d191a" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#9ad8cf" stroke-opacity="0.045" />
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#68a49b" />
+    </marker>
+    <clipPath id="frame"><rect width="600" height="650" rx="22" /></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="600" height="650" fill="url(#background)" />
+    <rect width="600" height="650" fill="url(#grid)" />
+    <circle cx="570" cy="15" r="170" fill="#4db6a7" opacity="0.04" />
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <g transform="translate(32 32)">
+        <rect width="224" height="40" rx="20" fill="#102322" stroke="#4b7d76" />
+        <circle cx="20" cy="20" r="6" fill="#70c9bc" />
+        <text x="39" y="26" fill="#b8e1db" font-size="16" font-weight="700" letter-spacing="1.4">BACKEND SYSTEMS</text>
+      </g>
+
+      <text x="32" y="139" fill="#f1f7f6" font-size="55" font-weight="760" letter-spacing="-1.8">TUSHAR JAISWAL</text>
+      <text x="34" y="180" fill="#9db2ae" font-size="24" font-weight="560">Backend software engineer</text>
+      <line x1="33" y1="214" x2="567" y2="214" stroke="#29403e" />
+
+      <text x="32" y="269" fill="#dce8e6" font-size="34" font-weight="680">Systems that stay calm</text>
+      <text x="32" y="310" fill="#dce8e6" font-size="34" font-weight="680">under production pressure.</text>
+      <text x="33" y="350" fill="#9db2ae" font-size="20">Distributed services · data platforms</text>
+      <text x="33" y="378" fill="#9db2ae" font-size="20">Real-time operations · dependable delivery</text>
+
+      <g transform="translate(32 405)">
+        <rect width="536" height="205" rx="16" fill="url(#panel)" stroke="#365451" />
+        <text x="20" y="31" fill="#b4c6c2" font-size="16" font-weight="700" letter-spacing="1.2">PRODUCTION FLOW</text>
+        <circle cx="420" cy="25" r="6" fill="#70c9bc" />
+        <text x="436" y="31" fill="#a8dcd4" font-size="15" font-weight="700">HEALTHY</text>
+        <line x1="20" y1="46" x2="516" y2="46" stroke="#2d4643" />
+
+        <g fill="none" stroke="#68a49b" stroke-width="2" marker-end="url(#arrow)">
+          <path d="M152 94H195" />
+          <path d="M341 94H384" />
+        </g>
+
+        <g>
+          <rect x="20" y="62" width="132" height="66" rx="11" fill="#12302d" stroke="#4f8d84" />
+          <text x="86" y="88" text-anchor="middle" fill="#91c9c0" font-size="16" font-weight="700">ENTRY</text>
+          <text x="86" y="112" text-anchor="middle" fill="#edf6f4" font-size="19" font-weight="680">API layer</text>
+
+          <rect x="195" y="62" width="146" height="66" rx="11" fill="#12302d" stroke="#4f8d84" />
+          <text x="268" y="88" text-anchor="middle" fill="#91c9c0" font-size="16" font-weight="700">ASYNC</text>
+          <text x="268" y="112" text-anchor="middle" fill="#edf6f4" font-size="19" font-weight="680">Event stream</text>
+
+          <rect x="384" y="62" width="132" height="66" rx="11" fill="#102120" stroke="#3e6560" />
+          <text x="450" y="88" text-anchor="middle" fill="#91aaa6" font-size="16" font-weight="700">STATE</text>
+          <text x="450" y="112" text-anchor="middle" fill="#dce8e6" font-size="19" font-weight="680">Data stores</text>
+        </g>
+
+        <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" font-weight="650">
+          <circle cx="26" cy="168" r="5" fill="#70c9bc" />
+          <text x="41" y="174" fill="#9db2ae">CACHE</text>
+          <circle cx="185" cy="168" r="5" fill="#70c9bc" />
+          <text x="200" y="174" fill="#9db2ae">TELEMETRY</text>
+          <circle cx="383" cy="168" r="5" fill="#70c9bc" />
+          <text x="398" y="174" fill="#9db2ae">BOUNDED</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="598.5" height="648.5" rx="21.25" fill="none" stroke="#35504d" stroke-width="1.5" />
+</svg>
